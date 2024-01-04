@@ -59,7 +59,7 @@ Players will take turns, with the vulture moving along the game board while the 
 
 ## Screenshot
 
-![Kaoaa Game Screenshot](artifacts/screenshot2.png)
+![Kaoaa Game Screenshot](./artifacts/screenshot2.png)
 
 ## Contributions
 
