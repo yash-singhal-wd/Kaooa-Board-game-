@@ -1,0 +1,74 @@
+body {
+    /* height: 100vh; */
+    background-image: linear-gradient(to right top, #ff8cce, #cc70a0, #9b5576, #6b3c50, #3e252e, #3e2935, #3e2e3c, #3d3341, #555c7b, #558eb5, #44c4df, #5ffbf1);
+}
+
+#playground {
+    margin-top: 60px;
+    margin-left: 170px;
+    background-color: aquamarine;
+    box-shadow: 1px 1px 20px 5px aquamarine;
+}
+
+#crowStatus{
+    display: inline-block;
+    position: relative;
+    top: -670px; 
+    left: 200px;  
+    min-width: 400px;
+    min-height: 200px;
+    box-shadow: 1px 1px 20px 5px aquamarine;
+}
+
+#vultureStatus{
+    display: inline-block;
+    position: relative;
+    top: -620px; 
+    left: 1278px;  
+    min-width: 400px;
+    min-height: 200px;
+    box-shadow: 1px 1px 20px 5px aquamarine;
+}
+
+#winningStatus{
+    display: inline-block;
+    position: relative;
+    top: -360px; 
+    left: 870px;  
+    min-width: 400px;
+    min-height: 200px;
+    box-shadow: 1px 1px 20px 5px aquamarine;
+}
+
+#downloadHere{
+    display: inline-block;
+    position: relative;
+    top: -990px; 
+    left: 550px;  
+    min-width: 5px;
+    box-shadow: 1px 1px 20px 5px aquamarine;
+    background-color: #363636;
+    color: aquamarine;
+    padding: 15px 32px;
+    border-radius: 50px 20px;
+    font-family: "Audiowide", sans-serif;
+}
+
+#downloadHere:hover {
+    background-color: aquamarine;
+    color: #363636;
+    cursor: pointer;
+}
+
+.labels{
+    font-family: "Audiowide", sans-serif;
+    color: aquamarine;
+    text-decoration: underline;
+    font-size: 25px;
+}
+
+.labels-2{
+    font-family: "Audiowide", sans-serif;
+    color: aquamarine;
+    font-size: 25px;
+}

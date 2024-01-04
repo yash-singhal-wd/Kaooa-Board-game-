@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kaooa</title>
+    <link rel="stylesheet" href="../CSS/main.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide">
+</head>
+<body style="margin:0px;">
+        <canvas id="playground" width="900" height="800" style="border:1px solid white;" data-tilt data-tilt-max="7">
+        Your browser does not support the HTML canvas tag.
+        </canvas>
+        <div id="crowStatus" style="border:1px solid aquamarine;" data-tilt>
+            <div class="labels" style="text-align: center; margin-top: 20px;">Crows Captured</div>
+            <div class="labels-2" id="crowremain" style="text-align: center; margin-top: 30px;"></div>
+
+        </div>
+        <div id="vultureStatus" style="border:1px solid aquamarine;" data-tilt>
+            <div class="labels" style="text-align: center; margin-top: 20px;" data-tilt>Turn?</div>
+            <div class="labels-2" id="turnremain" style="text-align: center; margin-top: 30px;"></div>
+
+        </div>
+        <div id="winningStatus" style="border:1px solid aquamarine;" data-tilt>
+            <div class="labels" style="text-align: center; margin-top: 20px;">Winning Status</div>
+            <div class="labels-2" id="winremain" style="text-align: center; margin-top: 30px;"></div>
+        </div>
+        <div id="downloadHere" data-tilt data-tilt-max="20"> Get Logs here! </div>
+    <script src="../JS/index.js"></script>
+    <script src="../JS/tilt.min.js"></script>
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/tilt.js/1.0.3/tilt.jquery.min.js"></script> -->
+</body>
+</html>
